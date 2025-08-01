@@ -66,7 +66,7 @@ export default function LoginPage() {
                                     Check Your Email
                                 </h2>
                                 <p className="text-gray-600 dark:text-gray-300 mt-2">
-                                    We've sent a magic link to
+                                    We&apos;ve sent a magic link to
                                 </p>
                                 <p className="text-blue-600 dark:text-blue-400 font-semibold">
                                     {email}
@@ -92,7 +92,7 @@ export default function LoginPage() {
                                 </Button>
                                 
                                 <p className="text-xs text-gray-500 dark:text-gray-400">
-                                    Didn't receive the email? Check your spam folder or try again.
+                                    Didn&apos;t receive the email? Check your spam folder or try again.
                                 </p>
                             </div>
                         </div>

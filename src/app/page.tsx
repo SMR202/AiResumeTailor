@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/header";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -39,9 +40,11 @@ export default function Home() {
                     {/* Image */}
                     <div className="flex justify-center lg:justify-end">
                         <div className="bg-white dark:bg-black p-6 rounded-4xl shadow-2xl hover:shadow-3xl transition-shadow duration-300 max-w-md">
-                            <img
+                            <Image
                                 src="/Resume_Template.webp"
                                 alt="Resume Template Preview"
+                                width={400}
+                                height={600}
                                 className="w-full h-auto rounded-3xl"
                             />
                         </div>

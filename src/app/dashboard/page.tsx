@@ -2,9 +2,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Header } from "@/components/header";
 import MultiStepForm from "@/components/multistep-form";
 import { ModeToggle } from "@/components/mode-toggle";
 import { SiReaddotcv } from "react-icons/si";

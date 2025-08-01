@@ -205,7 +205,7 @@ export default function MultiStepForm() {
         }
     };
 
-    const handleInputChange = (field: string, value: any) => {
+    const handleInputChange = (field: string, value: string) => {
         setFormData(prev => ({ ...prev, [field]: value }));
     };
 
@@ -776,7 +776,7 @@ export default function MultiStepForm() {
                                         required
                                     />
                                     <p className="text-sm text-base-content/60 mt-2">
-                                        Include programming languages, frameworks, tools, and technologies you're proficient in.
+                                        Include programming languages, frameworks, tools, and technologies you&apos;re proficient in.
                                     </p>
                                 </div>
                             </div>
@@ -915,7 +915,7 @@ export default function MultiStepForm() {
                                         required
                                     />
                                     <p className="text-sm text-base-content/60 mt-2">
-                                        Enter the job title you're applying for
+                                        Enter the job title you&apos;re applying for
                                     </p>
                                 </div>
                                 <div>

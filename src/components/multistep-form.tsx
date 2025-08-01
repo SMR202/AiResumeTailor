@@ -431,7 +431,7 @@ export default function MultiStepForm() {
                             </div>
                             <div className="mt-8 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
                                 <p className="text-sm text-blue-800 dark:text-blue-200 text-center">
-                                    <strong>Pro Tip:</strong> Your resume has been tailored specifically for the "{formData.jobTitle}" position. 
+                                    <strong>Pro Tip:</strong> Your resume has been tailored specifically for the &quot;{formData.jobTitle}&quot; position. 
                                     For different job applications, consider creating additional tailored versions.
                                 </p>
                             </div>
